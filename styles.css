@@ -25,8 +25,8 @@ h3 {
 }
 
 .logo {
-  width: 100px;
-  margin-top: 20px;
+  width: 80px;
+  margin-top: 25px;
   margin-left: 50px;
 }
 
@@ -64,6 +64,7 @@ h3 {
 
 #sub-menu {
   float: right;
+  margin-right: 35px;
 }
 
 #sub-menu a {
@@ -184,12 +185,14 @@ span {
 #tabs a.reviews2 {
   font-size: 20px;
   color: #ff999a;
+  padding-top: 2px;
   float: right;
 }
 
 #tabs ul {
-  margin-left: 10%;
+  margin-left: 12%;
   margin-right: 25%;
+  padding-left: 0px;
   padding-bottom: 13px;
   border-bottom: solid 3px #fbc2c3;
 }
@@ -218,32 +221,34 @@ span {
   text-decoration: none;
   font-size: 30px;
   color: white;
-  padding-right: 125px
+  padding-right: 80px
 }
 
 .funny-sneakers, .nimble-sneakers, .cute-sneakers {
   display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .funny-sneakers img {
-  width: 450px;
+  width: 400px;
 }
 
 .nimble-sneakers img {
-  width: 450px;
+  width: 400px;
 }
 
 .cute-sneakers img {
-  width: 450px;
+  width: 400px;
 }
 
 .funny-sneakers {
   margin-left: 10%;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .nimble-sneakers {
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .cute-sneakers {
