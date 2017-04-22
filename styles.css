@@ -1,16 +1,9 @@
-.orange {
-  background-color: #FB4B25;
+.background {
+  background: linear-gradient(to right, #df1d74, #FB4B25);
   color: white;
   font-family: sans-serif;
-  padding: 3% 25%;
-}
-
-.orange img {
-  width: 1000px
-}
-
-.shoe {
-  padding-bottom: 20px;
+  padding: 3%;
+  clear: both;
 }
 
 h2 {
@@ -18,8 +11,9 @@ h2 {
   font-size: 30px;
   font-weight: normal;
   color: #513226;
-  margin-left: 25%;
+  margin-left: 12%;
 }
+
 p {
   font-family: sans-serif;
 }
@@ -29,27 +23,47 @@ h3 {
   font-weight: normal;
   line-height: 0px;
 }
+
 .logo {
+  width: 100px;
   margin-top: 20px;
   margin-left: 50px;
+}
+
+#logo-top, #menu, #sub-menu {
+  display: inline-block;
+}
+
+#logo-top, #menu {
+  padding-bottom: 20px;
+  float: left;
+}
+
+#menu, #sub-menu {
+  margin-top: 20px;
 }
 
 #menu a {
   text-decoration: none;
   font-size: 20px;
-  color: #ff512f;
   font-family: sans-serif;
   font-weight: 700;
+  color: #ff512f;
 }
 
 #menu li {
   display: inline;
-  padding: 10px;
+  padding-right: 20px;
 }
 
 #menu a:hover {
+  padding-bottom: 8px;
   color: #b1290e;
-  text-decoration: underline;
+  border-bottom: solid 5px #fbc2c3;
+}
+
+#sub-menu {
+  float: right;
 }
 
 #sub-menu a {
@@ -61,7 +75,8 @@ h3 {
 
 #sub-menu li {
   display: inline;
-  padding: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 #sub-menu a:hover {
@@ -69,7 +84,10 @@ h3 {
     text-decoration: underline;
 }
 
-#all-shoes {
+.display-shoe img{
+  width: 800px;
+}
+#quick-shoes {
   text-decoration: none;
   font-size: 22px;
   color: white;
@@ -77,7 +95,7 @@ h3 {
 
 .seasons {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 18px;
   color: #b1290e;
   line-height: 0px;
 }
@@ -94,10 +112,12 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 25px;
+  line-height: 50px;
 }
 
 .reviews1 {
   color: #b1290e;
+  float: right;
 }
 
 .product-price {
@@ -107,6 +127,10 @@ h3 {
 
 sup {
   font-size: 20px;
+}
+
+span {
+  font-size: 30px;
 }
 
 .button {
@@ -121,15 +145,26 @@ sup {
   margin: 30px;
 }
 
+.display-shoe, .text-block {
+  display: inline-block;
+}
+
+.display-shoe {
+  margin-left: 10%;
+}
+
+.text-block {
+  float: right;
+  margin-right: 10%
+}
+
 #tabs {
-  margin-left: 23%;
-  margin-top: 50px;
-  padding-bottom: 15px;
+  margin-top: 60px;
 }
 
 #tabs a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   color: #ff512f;
   font-family: sans-serif;
   font-weight: 700;
@@ -143,23 +178,35 @@ sup {
 #tabs a:hover {
   color: #b1290e;
   border-bottom: solid 6px #fbc2c3;
+  padding-bottom: 8px;
 }
 
 #tabs a.reviews2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #ff999a;
+  float: right;
+}
+
+#tabs ul {
+  margin-left: 10%;
+  margin-right: 25%;
+  padding-bottom: 13px;
+  border-bottom: solid 3px #fbc2c3;
 }
 
 .content {
   font-size: 25px;
   color: #967878;
-  margin-left: 25%;
-  padding-bottom: 30px;
+  margin-left: 12%;
+  padding-bottom: 60px;
 }
 
+.blank-space {
+  height: 125px;
+}
 .shop-bar {
   background-color: #ffeeeb;
-  padding: 1px
+  padding: 8px
 }
 
 .shop-bar h2 {
@@ -167,16 +214,53 @@ sup {
   margin-left: 0px
 }
 
-.product-price2 {
+.sneaker-name {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  line-height: 50px;
+  padding-right: 125px
+}
+
+.funny-sneakers, .nimble-sneakers, .cute-sneakers {
+  display: inline-block;
+}
+
+.funny-sneakers img {
+  width: 450px;
+}
+
+.nimble-sneakers img {
+  width: 450px;
+}
+
+.cute-sneakers img {
+  width: 450px;
+}
+
+.funny-sneakers {
+  margin-left: 10%;
+  padding-right: 5%;
+}
+
+.nimble-sneakers {
+  padding-right: 5%;
+}
+
+.cute-sneakers {
+  margin-right: 10%;
+}
+#logo-bottom, #bottom-menu, .bottom {
+  display: inline-block;
+}
+
+#logo-bottom, #bottom-menu {
+  float: left;
+  margin-top: 20px;
 }
 
 #bottom-menu a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 9px;
   color: #ff512f;
   font-family: sans-serif;
   font-weight: 700;
@@ -184,12 +268,18 @@ sup {
 
 #bottom-menu li {
   display: inline;
-  padding: 10px;
+  padding: 8px;
 }
 
 #bottom-menu a:hover {
+  padding-bottom: 5px;
   color: #b1290e;
-  text-decoration: underline;
+  border-bottom: solid 5px #fbc2c3;
+}
+
+.bottom {
+  float: right;
+  margin-top: 30px;
 }
 
 .bottom li{
