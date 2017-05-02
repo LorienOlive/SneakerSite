@@ -23,7 +23,7 @@
         <ul>
           <li><a href="help.html">Help</a></li>
           <li><a href="myaccount.html">My Account</a></li>
-          <li><a href="shoppingcart.html"><img src="images/cart.jpg">&#xa0;Shopping Cart (2)</a></li>
+          <li><img src="images/cart.jpg"><a href="shoppingcart.html" class="shopping-cart">&#xa0;Shopping Cart (0)</a></li>
         </ul>
       </nav>
 
@@ -43,25 +43,34 @@
               Read the Reviews
             </a></p>
             <p class="product-price"><sup>$</sup><span>120</span><sup>&#xa0;00</sup>
-            <a class="button" href="http://www.quicksneakers.com/buynow">
-              BUY NOW!</a></p>
+            <button class="button" type="button">BUY NOW!</button></p>
           </div>
       </div>
 
       <nav id="tabs">
         <ul>
-          <li><a href="productdetails.html">Product Details</a></li>
-          <li><a href="sizeandfit.html">Size &#x26; Fit</a></li>
-          <li><a class="reviews2" href="reviews.html">Reviews &#x2605; &#x2605; &#x2605; &#x2605; &#x2606;</a></li>
+          <li class="product-details">Product Details</li>
+          <li class="size-and-fit">Size &#x26; Fit</li>
+          <li class="reviews2">Reviews &#x2605; &#x2605; &#x2605; &#x2605; &#x2606;</li>
         </ul>
       </nav>
 
-        <h2>Exciting Topic</h2>
+      <div id="product-details">
+        <h2> Exciting Topic</h2>
         <p class="content">Content here</p>
+        <h3> Exciting Topic</h3>
+        <p class="content">Content here</p>
+      </div>
+
+      <div id="size-and-fit">
         <h2>Find Your Shoe Size &#38; Fit</h2>
         <p class="content">Content here</p>
+      </div>
+
+      <div id="reviews">
         <h2>What Our Customers Are Saying!</h2>
         <p class="content">Don't take our word for it! See what our customers have been saying about this product. We guarantee that you won't be disappointed in your<br>purchase.</p>
+      </div>
 
       <div class="blank-space"></div>
 
@@ -118,5 +127,10 @@
         <li>&#169; Copyright 2017 Sneaker Shop, LLC</li>
       </ul>
 
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

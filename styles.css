@@ -14,14 +14,16 @@ h2 {
   margin-left: 12%;
 }
 
-p {
+h3 {
   font-family: sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #513226;
+  margin-left: 12%;
 }
 
-h3 {
-  font-size: 40px;
-  font-weight: normal;
-  line-height: 0px;
+p {
+  font-family: sans-serif;
 }
 
 .logo {
@@ -85,9 +87,6 @@ h3 {
     text-decoration: underline;
 }
 
-.display-shoe img{
-  width: 800px;
-}
 #quick-shoes {
   text-decoration: none;
   font-size: 22px;
@@ -146,11 +145,18 @@ span {
   margin: 30px;
 }
 
+.button:hover {
+  color: white;
+  background-color: #f13b3f;
+  border: solid 4px white;
+}
+
 .display-shoe, .text-block {
   display: inline-block;
 }
 
 .display-shoe {
+  width: 30%;
   margin-left: 10%;
 }
 
@@ -163,26 +169,23 @@ span {
   margin-top: 60px;
 }
 
-#tabs a {
+#tabs li {
   text-decoration: none;
   font-size: 25px;
   color: #ff512f;
   font-family: sans-serif;
   font-weight: 700;
-}
-
-#tabs li {
   display: inline;
   padding-right: 25px;
 }
 
-#tabs a:hover {
+#tabs li:hover {
   color: #b1290e;
   border-bottom: solid 6px #fbc2c3;
   padding-bottom: 8px;
 }
 
-#tabs a.reviews2 {
+#tabs li.reviews2 {
   font-size: 20px;
   color: #ff999a;
   padding-top: 2px;
@@ -191,10 +194,18 @@ span {
 
 #tabs ul {
   margin-left: 12%;
-  margin-right: 25%;
+  margin-right: 12%;
   padding-left: 0px;
   padding-bottom: 13px;
   border-bottom: solid 3px #fbc2c3;
+}
+
+#size-and-fit {
+  display: none;
+}
+
+#reviews {
+  display: none;
 }
 
 .content {
@@ -243,15 +254,18 @@ span {
 }
 
 .funny-sneakers {
+  width: 24%;
   margin-left: 10%;
   padding-right: 3%;
 }
 
 .nimble-sneakers {
+  width: 24%;
   padding-right: 3%;
 }
 
 .cute-sneakers {
+  width: 24%;
   margin-right: 10%;
 }
 #logo-bottom, #bottom-menu, .bottom {
